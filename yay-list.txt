@@ -1,0 +1,17 @@
+cursor-bin
+exercism-bin
+facetimehd-dkms
+facetimehd-firmware
+gnome-online-accounts-googledrive
+google-chrome
+gvfs-googledrive
+lib32-nvidia-580xx-utils
+libxls
+light
+nordvpn-bin
+nvidia-580xx-dkms
+nvidia-580xx-utils
+whitesur-icon-theme-git
+yay
+yay-debug
+yt-x
