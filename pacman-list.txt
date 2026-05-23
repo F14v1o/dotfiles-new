@@ -15,6 +15,7 @@ fd
 fzf
 garcon
 git
+github-cli
 gnome-browser-connector
 gnome-shell-extensions
 gnome-tweaks

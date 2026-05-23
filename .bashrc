@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 alias tson='tailscale up'
+alias sync-dotfiles="cd ~/newdotfiles && ./backup.sh && git add . && git commit -m 'Sync latest changes' && git push"
 alias tsoff='tailscale down'
 # ==============================================================================
 # TERMINAL WELCOME DASHBOARD
@@ -32,7 +33,7 @@ echo " /_.._|_|_\___ \ "
 echo -e "${COLOR_VAL}"
 
 echo "=================================================================="
-echo " HOST: FLAVIO | SYSTEM: ARCH LINUX "
+echo " HOST: FLAVIO | SYSTEM: ARCH LINUX " sync-dotfiles
 echo "=================================================================="
 echo ""
 
